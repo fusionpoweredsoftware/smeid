@@ -1,14 +1,14 @@
 {
-  "name": "discordbot",
+  "name": "smeid",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "smeid.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["discord", "bot", "ai", "ollama", "llm", "persona", "sme"],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Smeid - Subject Matter Expert (SME) Identifier (ID): A Discord bot system that intelligently routes conversations to AI-powered expert personas",
   "dependencies": {
     "axios": "^1.9.0",
     "discord.js": "^14.19.3",
