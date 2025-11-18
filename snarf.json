@@ -1,18 +1,19 @@
 {
     "name": "Snarf",
-    "id": "<discord app id>",
-    "token": "<your discord token>",
+    "id": "YOUR_BOT_USER_ID",
+    "alias": "Snarf",
+    "token": "YOUR_DISCORD_BOT_TOKEN",
     "channels": {
-        "👨🏽・einstein": "<the channel id>",
-        "😸・snarf": "<the channel id>",
-        "👋・welcome": "<the channel id>",
-        "💬・general": "<the channel id>",
-        "😂・funny": "<the channel id>",
-        "🕵・private-snarf": "<the channel id>",
-        "🕵・private-ada": "<the channel id>",
-        "🤖・ai-2-ai": "<the channel id>",
-        "🛝・playground-1": "<the channel id>",
-        "🛝・playground-2": "<the channel id>",
-        "🛝・playground-3": "<the channel id>"
+        "👨🏽・einstein": "CHANNEL_ID_1",
+        "😸・snarf": "CHANNEL_ID_2",
+        "👋・welcome": "CHANNEL_ID_3",
+        "💬・general": "CHANNEL_ID_4",
+        "😂・funny": "CHANNEL_ID_5",
+        "🕵・private-snarf": "CHANNEL_ID_6",
+        "🕵・private-ada": "CHANNEL_ID_7",
+        "🤖・ai-2-ai": "CHANNEL_ID_8",
+        "🛝・playground-1": "CHANNEL_ID_9",
+        "🛝・playground-2": "CHANNEL_ID_10",
+        "🛝・playground-3": "CHANNEL_ID_11"
     }
 }   
