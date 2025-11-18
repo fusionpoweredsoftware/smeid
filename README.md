@@ -43,16 +43,46 @@ Each bot persona requires two configuration files:
 Example structure for `ada_lovelace.json`:
 ```json
 {
-  "name": "Ada Lovelace",
-  "id": "your-bot-user-id",
   "alias": "Ada",
-  "token": "your-discord-bot-token",
+  "name": "Ada Lovelace",
+  "id": "<discord app id>",
+  "token": "<your discord token>",
   "channels": {
-    "channel-name": "channel-id",
-    "another-channel": "another-channel-id"
+    "👨🏽・einstein": "<the channel id>",
+    "😸・snarf": "<the channel id>",
+    "👋・welcome": "<the channel id>",
+    "💬・general": "<the channel id>",
+    "😂・funny": "<the channel id>",
+    "🕵・private-snarf": "<the channel id>",
+    "🕵・private-ada": "<the channel id>",
+    "🤖・ai-2-ai": "<the channel id>",
+    "🛝・playground-1": "<the channel id>",
+    "🛝・playground-2": "<the channel id>",
+    "🛝・playground-3": "<the channel id>"
   }
 }
 ```
+
+**Note**: Replace `<discord app id>` with your bot's Discord application ID, `<your discord token>` with your bot token from the Discord Developer Portal, and each `<the channel id>` with the actual Discord channel IDs you want the bot to monitor.
+
+**Smeid Configuration**: The `smeid.json` file uses slightly different placeholders: `<your discord id>` for the ID field and `<your discord api token>` for the token field, but the values are obtained from the same Discord Developer Portal.
+
+#### Getting Configuration Values
+
+1. **Discord Application ID** (`<discord app id>`):
+   - Go to [Discord Developer Portal](https://discord.com/developers/applications)
+   - Select your application
+   - Copy the "Application ID" from the General Information page
+
+2. **Discord Bot Token** (`<your discord token>`):
+   - In the same application, go to the "Bot" section
+   - Click "Reset Token" or "Copy" to get your bot token
+   - **Important**: Keep this token secret and never commit it to version control
+
+3. **Channel IDs** (`<the channel id>`):
+   - In Discord, enable Developer Mode (User Settings > Advanced > Developer Mode)
+   - Right-click on any channel and select "Copy Channel ID"
+   - Replace each `<the channel id>` with the appropriate channel ID
 
 ### 2. YAML Persona File (`<botname>.yaml`)
 
