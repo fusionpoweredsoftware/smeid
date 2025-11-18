@@ -1,0 +1,18 @@
+{
+    "name": "Snarf",
+    "id": "<discord app id>",
+    "token": "<your discord token>",
+    "channels": {
+        "👨🏽・einstein": "<the channel id>",
+        "😸・snarf": "<the channel id>",
+        "👋・welcome": "<the channel id>",
+        "💬・general": "<the channel id>",
+        "😂・funny": "<the channel id>",
+        "🕵・private-snarf": "<the channel id>",
+        "🕵・private-ada": "<the channel id>",
+        "🤖・ai-2-ai": "<the channel id>",
+        "🛝・playground-1": "<the channel id>",
+        "🛝・playground-2": "<the channel id>",
+        "🛝・playground-3": "<the channel id>"
+    }
+}   

@@ -1,0 +1,1 @@
+rsync -avh -e ssh andrey@brainstation:/home/andrey/Projects/discordbot/ .
