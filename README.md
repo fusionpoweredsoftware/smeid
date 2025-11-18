@@ -158,7 +158,6 @@ discord_bot/
 ├── smeid-lib.mjs                # Core Discord bot library
 ├── persona.mjs                  # Conversation history manager
 ├── ollama-kid.mjs               # Ollama chat interface
-├── single-persona-tester.mjs    # Testing utility
 ├── transform.mjs                # Utility functions
 ├── *.json                       # Bot configuration files
 ├── *.yaml                       # Persona definitions
@@ -237,7 +236,7 @@ ollama pull gemma3:27b
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
-4. Test with `single-persona-tester.mjs`
+4. Test your changes with the appropriate bot persona
 5. Submit a pull request
 
 ## License
