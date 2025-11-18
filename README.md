@@ -1,6 +1,6 @@
-# Discord AI Bot with Persona System
+# Smeid - Subject Matter Expert (SME) Identifier (ID)
 
-A Discord bot that uses Ollama for local LLM inference to create AI-powered personas that interact naturally in Discord channels. The system supports multiple personas including Ada Lovelace, Einstein, Snarf, and Smeid (a subject-matter-expert identifier).
+A Discord bot system that uses Ollama for local LLM inference to create AI-powered personas that interact naturally in Discord channels. Smeid intelligently routes conversations to the appropriate subject matter expert (Ada Lovelace, Einstein, or Snarf) based on the context and content of messages.
 
 ## Features
 
